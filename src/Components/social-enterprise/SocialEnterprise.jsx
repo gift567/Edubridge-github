@@ -4,7 +4,8 @@ import servicesImage_2 from "../../assets/social_enterprise_image-2.JPG"
 import servicesImage_3 from "../../assets/social_enterprise_image-3.JPG"
 import servicesImage_4 from "../../assets/social_enterprise_image-4.JPG"
 import Navbar from "../Navbar/Navbar.jsx"
-import profile_assessment from "../../assets/profile_assessment.JPG";
+import donation from "../../assets/donation.JPG"
+import tuion from "../../assets/tuion.JPG"
 import university_selection from "../../assets/university_selection.JPG";
 import application_assistance from "../../assets/application_assistance.JPG";
 import { motion } from "framer-motion"
@@ -49,20 +50,18 @@ const SocialEnterprise = () => {
                     variants={variants}
                 >
                     <h1 className="text-4xl font-bold tracking-tight text-gray-100 sm:text-6xl">
-                        Needs Preparations for <br/> IETS Exams?
+                        Welcome to our Soclal Enterprise Section<br/> 
                     </h1>
 
-                    <span className="mt-6 text-lg leading-8 text-gray-200 mx-6 text-center">
-                        Jasper Consultancy extends a helping hand to students <br/>
-                        seeking guidance on their educational journey through our<br/>
-                        free consultancy.
+                    <span className="mt-6 text-2xl leading-8 text-gray-200 mx-6 text-center">
+                        This is where all our Social Responsilbilities are documented 
                     </span>
 
                     <a
                         href="#"
-                        className="rounded-md bg-[#d3ad56] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[]-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                        className="rounded-md   bg-[#d3ad56] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[]-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
-                        Get in Touch
+                        Call Now
                     </a>
                 </motion.div>
             </motion.div>
@@ -74,21 +73,21 @@ const SocialEnterprise = () => {
                 variants={variants}
             >
                 <div className="flex flex-col mx-auto text-center">
-                    <h1 className="text-3xl mb-4">OUR SERVICES</h1>
+                    <h1 className="text-3xl mb-4">OUR RESPONSIBILITIES</h1>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-16 w-4/5 mx-auto gap-8 place-items-center">
                     <ServiceCard 
-                        title="Profile Assessment"
+                        title="Donation of Clothes"
                         description="Jasper Consultancy extends a helping hand to students seeking guidance on their educational journey through our Free Counselling services."
-                        image={servicesImage_3}
+                        image={donation}
                     />
                     <ServiceCard 
-                        title="University Selection"
+                        title="Donation of Tuition Fees"
                         description="Jasper Consultancy extends a helping hand to students seeking guidance on their educational journey through our Free Counselling services."
-                        image={servicesImage_2}
+                        image={tuion}
                     />
                     <ServiceCard 
-                        title="Application Assistance"
+                        title="Donation to the Food Bank"
                         description="Jasper Consultancy extends a helping hand to students seeking guidance on their educational journey through our Free Counselling services."
                         image={servicesImage_4}
                     />

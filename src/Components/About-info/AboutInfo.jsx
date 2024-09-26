@@ -1,8 +1,11 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar';
 import Booking from '../Booking/Book';
-import './AboutInfo.css'
 import hero from '../../assets/hero.jpg'
+import team from '../../assets/team.png'
+import eff from '../../assets/eff.png'
+import './AboutInfo.css'
+import hats from '../../assets/hats.png'
 import Footer from '../../Footer';
 import Subscribe from '../Subscribe/Subscribe';
 
@@ -13,25 +16,21 @@ const AboutInfo = () => {
     <div>
 
 <Navbar/>
-        <div className='about-con'>
+ <div className='about-con'>
 
         <h1>About Us</h1>
     <p>
-      Welcome to our website! We are a small team dedicated to delivering high-quality products and services. Our mission is to provide exceptional value to our customers through innovation and excellence.
+    At our online study center, we pride ourselves on delivering personalized, high-quality education tailored to each student's unique needs, 
+    ensuring they receive the most effective support possible. Our cutting-edge technology and expert instructors provide an engaging and interactive learning experience, making complex subjects accessible and enjoyable
     </p>
-    <p>
-      Our team is comprised of experienced professionals who are passionate about their work. We believe in the power of collaboration and are committed to continuous improvement.
-    </p>
-    <p>
-      Thank you for visiting our site. We hope you find what you're looking for and look forward to serving you.
-    </p>
-        </div>
+
+     </div>
 
 
         <div className="box-con">
-   <img src={hero}/>
+   <img src={hats}/>
         <div className="box-con-txt">
-            <h1>Responsive Container</h1>
+            <h1>EduBridge Education Center</h1>
             <p>This Lorem ipsum dolor sit, amet consectetur #lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ut quaerat assumenda perferendis a dolore natus
                 asperiores quas, necessitatibus culpa, nulla soluta nisi! Unde placeat quia reprehenderit labore pariatur atque?
                 adipisicing elit. Null Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, hic explicabo ea iusto nulla 
@@ -47,16 +46,16 @@ const AboutInfo = () => {
 
     <div class="slider">
         <div class="card">
-        <img src={hero}/>
+        <img src={team}/>
             <div class="card-content">
-                <h2>Card 1</h2>
+                <h2>Our Team</h2>
                 <p>This is the first card.</p>
             </div>
         </div>
         <div class="card">
-        <img src={hero}/>
+        <img src={eff}/>
             <div class="card-content">
-                <h2>Card 2</h2>
+                <h2>Effiency</h2>
                 <p>This is the second card.</p>
             </div>
         </div>

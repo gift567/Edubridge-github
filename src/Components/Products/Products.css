@@ -84,6 +84,7 @@ section{
   .product-con p {
     line-height: 2em;
     color: #625a71;
+    font-size: 1.5rem;
   }
   .product-con:hover {
     background-position: 0;
