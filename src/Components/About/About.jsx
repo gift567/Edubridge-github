@@ -1,6 +1,7 @@
 import library_image from "../../assets/about_pic.png"
 import {ArrowRightOutlined} from "@ant-design/icons";
 
+
 const About = () => {
     return (
         <div className="py-14 mx-auto w-5/6 h-screen">

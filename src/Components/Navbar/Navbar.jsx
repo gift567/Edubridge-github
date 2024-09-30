@@ -28,7 +28,11 @@ const Navbar = () => {
         <li>STUDY ABROAD</li>
     </Link>
 
-    <li>EVENTS</li>
+<Link  to="/Edubridge-github
+/Events">
+<li>EVENTS</li>
+</Link>
+    
 
     <Link to="/Edubridge-github/social-enterprise">
     <li>SOCIAL ENTERPRISE</li>
@@ -37,6 +41,9 @@ const Navbar = () => {
     <li><button className='btn'>CONTACT US</button></li>
 </ul>
      </nav>
+
+
+
   )
 }
 

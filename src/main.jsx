@@ -7,6 +7,7 @@ import StudyAbroad from "./Components/study-abroad/StudyAbroad.jsx";
 import Services from "./Components/Services/Services.jsx";
 import SocialEnterprise from "./Components/social-enterprise/SocialEnterprise.jsx";
 import AboutInfo from './Components/About-info/AboutInfo.jsx';
+import Events from './Components/Events/Events.jsx';
 
 const router = createBrowserRouter([
     { path: 'Edubridge-github', element: <App />},
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
     { path: '/Edubridge-github/services', element: <Services />},
     { path: '/Edubridge-github/social-enterprise', element: <SocialEnterprise />},
     { path: '/Edubridge-github/About-info', element: <AboutInfo />},
+    { path: '/Edubridge-github/Events', element: <Events />},
 ])
 
 createRoot(document.getElementById('root')).render(
