@@ -66,9 +66,9 @@ const Events = () => {
                 <div class="overlay"></div>
 
                 <div class="event-info">
-                    <p class="title">Bubbe's Book Club</p>
+                    <p class="title">Event 1</p>
                     <div class="separator"></div>
-                    <p class="info">Bellmore, NY</p>
+                    <p class="info">Lusaka, Zambia</p>
                     <p class="price">Free</p>
 
                     <div class="additional-info">
@@ -87,6 +87,7 @@ const Events = () => {
                         </p>
                     </div>
                 </div>
+
                 <button class="action">Book it</button>
             </div>
         </div>
@@ -100,10 +101,10 @@ const Events = () => {
                 <div class="overlay"></div>
 
                 <div class="event-info">
-                    <p class="title">The Overstory</p>
+                <p class="title">Event 1</p>
                     <div class="separator"></div>
-                    <p class="info">New York, NY</p>
-                    <p class="price">29$</p>
+                    <p class="info">Lusaka, Zambia</p>
+                    <p class="price">Free</p>
 
                     <div class="additional-info">
                         <p class="info">
@@ -134,10 +135,10 @@ const Events = () => {
                 <div class="overlay"></div>
 
                 <div class="event-info">
-                    <p class="title">The NY Festival</p>
+                <p class="title">Event 1</p>
                     <div class="separator"></div>
-                    <p class="info">New York, NY</p>
-                    <p class="price">70$</p>
+                    <p class="info">Lusaka, Zambia</p>
+                    <p class="price">Free</p>
 
                     <div class="additional-info">
                         <p class="info">
@@ -168,10 +169,10 @@ const Events = () => {
                 <div class="overlay"></div>
 
                 <div class="event-info">
-                    <p class="title">Tech Bubble Conf</p>
+                <p class="title">Event 1</p>
                     <div class="separator"></div>
-                    <p class="info">New York, NY</p>
-                    <p class="price">35$</p>
+                    <p class="info">Lusaka, Zambia</p>
+                    <p class="price">Free</p>
 
                     <div class="additional-info">
                         <p class="info">
@@ -206,7 +207,7 @@ const Events = () => {
               type="text"
               name="firstname"
               id="firstname"
-              placeholder="Jane"
+              placeholder="Enter First Name"
               class="formbold-form-input"
               />
               <label for="firstname" class="formbold-form-label"> First name </label>
@@ -216,7 +217,7 @@ const Events = () => {
               type="text"
               name="lastname"
               id="lastname"
-              placeholder="Cooper"
+              placeholder="Enter Last Name"
               class="formbold-form-input"
               />
               <label for="lastname" class="formbold-form-label"> Last name </label>
@@ -232,14 +233,14 @@ const Events = () => {
               placeholder="example@mail.com"
               class="formbold-form-input"
               />
-              <label for="email" class="formbold-form-label"> Mail </label>
+              <label for="email" class="formbold-form-label"> EMail </label>
           </div>
           <div>
               <input
               type="text"
               name="phone"
               id="phone"
-              placeholder="(319) 555-0115"
+              placeholder="Enter Phone Number"
               class="formbold-form-input"
               />
               <label for="phone" class="formbold-form-label"> Phone </label>

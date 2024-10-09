@@ -1,88 +1,5 @@
 
 
-.about-con{
-    padding: 20px;
-    margin: 0 auto;
-    margin-top: 10rem;
-    text-align: center;
-    width: 100%;
-    
-  }
-
-  .about-con h1{
-    text-align: center;
-    font-size: 3rem;
-    letter-spacing: 1rem;
-  }
-
-  .about-con p{
-    text-align: center;
-    font-size: 1.3rem;
-    line-height: 3rem;
-  }
-
-
-  .box-con{
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    margin: 0 auto;
-    margin-top: 2rem;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: white;
- 
-  }
-
-.box-con img{
-    height: 30rem;
-    object-fit: cover;
-    border-radius: 30px;
-    margin-bottom: 20px;
-}
-
-.box-con-txt {
-    text-align: center;
-    height: 20vh;
-    width: 60%;
-    font-family: sans-serif;
-}
-
-.box-con-txt h1 {
-    font-size: 2em;
-    margin: 0 0 10px;
-    
-}
-
-.box-con-txt p {
-    font-size: 1em;
-    margin: 0;
-    margin-left: 2vh;
-    text-align: center;
-}
-
-
-
-
-/* Responsive about image and text*/
-@media (min-width: 768px) {
-    .box-con {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .box-con img {
-        flex: 1;
-        margin-right: 20px;
-    }
-
-    .box-con-txt p {
-        flex: 1;
-        text-align: left;
-        line-height: 4vh;
-    }
-}
-
 
 /* card sliders about image and text*/
 
@@ -143,4 +60,71 @@
 
 .slider:hover .card {
     animation: slide 15s infinite linear;
+}
+
+
+
+
+/* about sec code */
+
+.about-section{
+    background: url('../../assets/hat.jpg') no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+}
+
+.text{
+    font-size: 1.4rem;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
 }

@@ -22,7 +22,7 @@ import {useEffect} from "react";
 
 import Footer from "../../Footer.jsx";
 import Hero from "../Hero/Hero.jsx";
-import SocialResponsiblityComponent from "../study-abroad/ui/social-responsibility-section.component.jsx";
+import SocialResponsiblityComponent from "../services/ui/social-responsibility-section.component.jsx";
 
 
 
@@ -61,7 +61,75 @@ const Services = () => {
                             </a>
                 </div>
             </div>
+
             <div className="py-24 flex flex-col">
+                <div className="flex flex-col mx-auto text-center">
+                    <h1 className="text-3xl mb-4">OUR SERVICES</h1>
+                </div>
+                <div className="flex flex-col mx-auto text-center ">
+                    <h1 className="text-4xl mb-4 m-10">University Placement Services</h1>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-16 w-4/5 mx-auto gap-8 place-items-center">
+           
+                    <ServiceCard 
+                        title="Profile Assessment"
+                        description="
+                         Jasper Consultancy extends a helping hand to 
+                         students seeking guidance on their educational
+                         journey through our Free Counselling services.
+                        "
+                        image={profile_assessment}
+                    />
+                    <ServiceCard 
+                        title="University Selection"
+                        description="
+                         Jasper Consultancy extends a helping hand to 
+                         students seeking guidance on their educational
+                         journey through our Free Counselling services.
+                        "
+                        image={university_selection}
+
+                    />
+                    <ServiceCard 
+                        title="Application Assistance"
+                        description="
+                         Jasper Consultancy extends a helping hand to 
+                         students seeking guidance on their educational
+                         journey through our Free Counselling services.
+                        "
+                        image={application_assistance}
+
+                    />
+
+                </div>
+                <a
+                  href="#"
+                  className="rounded-md bg-[#d3ad56]  px-3.5 py-2.5 mx-auto text-sm w-80 font-semibold text-white shadow-sm hover:bg-[]-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                 >
+                 Learn More
+                <ArrowRightOutlined className="text-xs ml-2"/>
+               </a>
+
+
+               
+
+            </div>
+
+
+            <div className="py-20 flex flex-col mx-auto">
+                <SocialResponsiblityComponent />
+                             <a
+                                href="#"
+                                className="rounded-md bg-[#d3ad56] mt-10 px-3.5 py-2.5 mx-auto text-sm w-80 font-semibold text-white shadow-sm hover:bg-[]-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                            >
+                               Learn More
+                               <ArrowRightOutlined className="text-xs ml-2"/>
+                            </a>
+              </div>
+
+
+
+              <div className="py-24 flex flex-col">
                 <div className="flex flex-col mx-auto text-center">
                     <h1 className="text-3xl mb-4">OUR SERVICES</h1>
                 </div>
@@ -107,16 +175,8 @@ const Services = () => {
                </a>
 
             </div>
-            <div className="py-20 flex flex-col mx-auto">
-                <SocialResponsiblityComponent />
-                             <a
-                                href="#"
-                                className="rounded-md bg-[#d3ad56] mt-10 px-3.5 py-2.5 mx-auto text-sm w-80 font-semibold text-white shadow-sm hover:bg-[]-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                            >
-                               Learn More
-                               <ArrowRightOutlined className="text-xs ml-2"/>
-                            </a>
-              </div>
+
+            
             <Footer/>
         </div>
     )

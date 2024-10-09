@@ -26,9 +26,8 @@ const Products = () => {
           </div>
           <h3>Learn English</h3>
           <p className="text-gray-600 text-md md:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            asperiores natus ad molestiae aliquid explicabo. Iste eaque quo et
-            commodi.
+          Edubridge Education Study Center is dedicated to empowering students through immersive English language education. 
+          With a team of experienced instructors, the center offers a range of courses tailored to different proficiency levels, from beginners to advanced learners. 
           </p>
           <button className='btn'>Learn More <img src={right_arrow} alt='' /> </button>
         </div>
@@ -42,9 +41,8 @@ const Products = () => {
           </div>
           <h3>Learn Spanish</h3>
           <p className="text-gray-600 text-md md:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            asperiores natus ad molestiae aliquid explicabo. Iste eaque quo et
-            commodi.
+          Edubridge Education Study Center is dedicated to empowering students through immersive Spanish language education. 
+          With a team of experienced instructors, the center offers a range of courses tailored to different proficiency levels, from beginners to advanced learners. 
           </p>
           <button className='btn'>Learn More <img src={right_arrow} alt='' /> </button>
         </div>
@@ -59,9 +57,7 @@ const Products = () => {
           </div>
           <h3>Learn French</h3>
           <p className="text-gray-600 text-md md:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            asperiores natus ad molestiae aliquid explicabo. Iste eaque quo et
-            commodi.
+           Edubridge Education Study Center is dedicated to empowering students through immersive French language education. With a team of experienced instructors, the center offers a range of courses tailored to different proficiency levels, from beginners to advanced learners.
           </p>
 
           <button className='btn'>Learn More <img src={right_arrow} alt='' /> </button>
@@ -74,11 +70,9 @@ const Products = () => {
           <div class="icon">
           <i class="fa-solid fa-people-arrows"></i>
           </div>
-          <h3>Learn German</h3>
+          <h3>Learn Chinese</h3>
           <p className="text-gray-600 text-md md:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            asperiores natus ad molestiae aliquid explicabo. Iste eaque quo et
-            commodi.
+          Edubridge Education Study Center is dedicated to empowering students through immersive French language education. With a team of experienced instructors, the center offers a range of courses tailored to different proficiency levels, from beginners to advanced learners.
           </p>
           <button className='btn'>Learn More <img src={right_arrow} alt='' /> </button>
         </div>

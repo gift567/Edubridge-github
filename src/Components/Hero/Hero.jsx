@@ -9,7 +9,9 @@ const Hero = () => {
     <div className='hero'>
       <div className="hero-text">
         <h1>We ensure you that we are the Best Study center</h1>
-        <p>At our online study center, we pride ourselves on delivering personalized, high-quality education tailored to each student's unique needs, ensuring they receive the most effective support possible. Our cutting-edge technology and expert instructors provide an engaging and interactive learning experience, making complex subjects accessible and enjoyable</p>
+        <p>
+        Edubridge Education Centre was established in July 2024,  As a sister organization to Jasper Consultancy, founded in 2013, Edubridge leverages a strong foundation of expertise and experience. 
+        </p>
         <button className='btn'>Learn More <img src={right_arrow} alt='' /> </button>
       </div>
     </div>

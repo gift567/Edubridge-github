@@ -20,10 +20,7 @@ const About = () => {
                     </div>
                     <div className="md:w-4/6">
                         <span className="text-gray-600 md:text-2xl text-md leading-7">
-                            As an Online Study center ,social enterprise and study abroad agency,
-                            our center combines a commitment to educational excellence with a strong dedication to social impact.
-                            We offer personalized, high-quality learning experiences tailored to individual needs while supporting global educational opportunities that promote cross-cultural understanding. By reinvesting our profits into community-driven initiatives, we ensure that every
-                            student's success also contributes to meaningful, positive change in the world.
+                        At our online study center, we pride ourselves on delivering personalized, high-quality education tailored to each student's unique needs, ensuring they receive the most effective support possible. Our cutting-edge technology and expert instructors provide an engaging and interactive learning experience, making complex subjects accessible and enjoyable
                          </span>
                         <button className="bg-black text-white px-4 py-2 rounded-lg mt-10 hover:bg-gray-700 flex items-center hover:gap-2">
                             Learn more
